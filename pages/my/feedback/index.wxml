@@ -1,0 +1,24 @@
+<wxs module="enumItem" src="../../../wxs/enumItem.wxs"></wxs>
+<view>
+  <form bindsubmit='formSubmit'>
+    <i-panel title="手机">
+      <i-input value="{{ feedback.phone }}" autofocus="true" name="phone" maxlength="-1" />
+    </i-panel>
+    <i-panel title="微信">
+      <i-input value="{{ feedback.wechat }}" name="wechat" maxlength="-1" />
+    </i-panel>
+    <i-panel title="内容">
+      <i-input type="textarea" value="{{ feedback.content }}" name="content" maxlength="-1" />
+    </i-panel>
+    <view>
+      <button class="i-btn i-btn- i-btn-primary i-btn-square" form-type='submit'>保存</button>
+    </view>
+
+  </form>
+
+  <i-spin size="large" fix wx:if="{{ spinShow }}"></i-spin>
+  <i-message id="message" />
+  <i-modal title="提交结果" showCancel="{{showCancel}}" visible="{{modalShow}}" bind:ok="forward">
+    <view>提交成功</view>
+  </i-modal>
+</view>

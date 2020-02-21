@@ -1,0 +1,7 @@
+{
+  "desc": "真题库Go",
+  "rules": [{
+  "action": "allow",
+  "page": "*"
+  }]
+}

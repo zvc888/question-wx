@@ -1,0 +1,24 @@
+<!--pages/exam/index/index.wxml-->
+<view>
+  <!-- <i-tabs current="{{ paperType }}" bindchange="tabChange" fixed="true">
+    <i-tab key="1" title="刷题模式" />
+    <i-tab key="4" title="看题模式" />
+  </i-tabs> -->
+  <i-panel title="分类">
+  <!-- <view class='page_row' >  
+      <view class="search">  
+        <view class="df search_arr">  
+          <icon class="searchcion" size='20' type='search'></icon>  
+          <input class=""  confirm-type='search' bindtap="search1"  bindinput='inputBind'  placeholder="请输入关键字" value="{{searchName}}"/>  
+        </view>  
+      </view>  
+    </view>   -->
+    <i-cell-group>
+      <i-cell wx:for-items="{{tableData}}" data-item="item" wx:key="{{item.id}}" title="{{item.name}}" is-link url="/pages/subject/index?id={{item.id}}"></i-cell>
+    </i-cell-group>
+  </i-panel>
+   <i-load-more tip="{{loadMoreTip}}" loading="{{loadMoreLoad}}" />
+  <i-spin size="large" fix wx:if="{{ spinShow }}"></i-spin>
+  <i-message id="message" />
+</view>
+  
