@@ -35,7 +35,7 @@
 
 [微信小程序开发助手](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 
-![演示地址]()
+![演示地址](https://images.gitee.com/uploads/images/2020/0224/154235_160225d6_87856.png)
 
 
 ![demo](https://s2.ax1x.com/2020/02/21/3uCzKU.png)
@@ -45,4 +45,4 @@
 
 # 喜欢的帮忙star，谢谢啦
 
-<img src="https://s2.ax1x.com/2020/02/19/3VGcZt.png" alt="打赏" align="center" />
+![打赏](https://images.gitee.com/uploads/images/2020/0224/154238_69516fad_87856.png)
