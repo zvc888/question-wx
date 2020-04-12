@@ -7,6 +7,10 @@
 2. [后端管理页面](https://github.com/zvc888/question-admin-console.git)
 3. [小程序](https://github.com/zvc888/question-wx.git)
 
+# 准备
+1. 修改project.config.json中的小程序 appid
+2. https://mtj.baidu.com/web/dashboard 申请移动统计appKey 修改utils/mtj-wx-sdk.config.js
+
 ## 项目已实现功能包括：
 
 
